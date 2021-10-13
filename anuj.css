@@ -1,0 +1,285 @@
+body {
+    font-family: cursive;
+}
+
+.skills {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    position: relative;
+    z-index: 0;
+    opacity: 1;
+}
+
+.skill-black {
+    width: 50%;
+    padding-left: 5%;
+    height: 46rem;
+    text-align: center;
+    background-color: #6F69AC;
+    border-bottom-left-radius: 5%;
+    border-top-left-radius: 5%;
+}
+
+.skill-black h1 {
+    font-size: 4rem;
+    color: #393E46;
+    text-align: center;
+}
+
+.skill-blacks {
+    width: 50%;
+    padding-left: 3%;
+    height: 46rem;
+    background-color: #6F69AC;
+    border-bottom-left-radius: 5%;
+    border-top-left-radius: 5%;
+}
+
+.skill-blacks h1 {
+    font-size: 4rem;
+    color: #393E46;
+    text-align: center;
+}
+
+.skill-blacks h3 {
+    padding-top: 3%;
+    opacity: 1;
+}
+
+.skill-blacks li {
+    font-size: 1rem;
+    opacity: 1;
+}
+
+.skill-blacks ul {
+    padding-top: 3%;
+    opacity: 1;
+}
+
+.skill-white {
+    width: 50%;
+    height: 46rem;
+    background-color: #393E46;
+    border-bottom-right-radius: 5%;
+    border-top-right-radius: 5%;
+}
+
+.skill-white h1 {
+    font-size: 4rem;
+    color: #6F69AC;
+    text-align: center;
+}
+
+.skill-whites {
+    width: 50%;
+    height: 46rem;
+    background-color: #393E46;
+    border-bottom-right-radius: 5%;
+    border-top-right-radius: 5%;
+}
+
+.skill-whites li {
+    opacity: 1;
+    font-size: 1rem;
+    padding-left: 3%;
+}
+
+.skill-whites h3 {
+    opacity: 1;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.skill-whites h1 {
+    font-size: 4rem;
+    color: #6F69AC;
+    text-align: center;
+}
+
+.project {
+    padding: 0;
+    margin: 0 10%;
+    margin-bottom: -900px;
+    display: flex;
+    position: relative;
+    z-index: 1;
+    top: -640px;
+    left: 58px;
+}
+
+.projects {
+    padding: 0;
+    margin: 0 10%;
+    margin-bottom: -535px;
+    display: flex;
+    position: relative;
+    z-index: 1;
+    top: -640px;
+    left: 58px;
+}
+
+.project-white {
+    width: 45%;
+    height: 34rem;
+    background-color: #393E46;
+    border-bottom-left-radius: 7%;
+    border-top-left-radius: 7%;
+}
+
+.project-white p {
+    opacity: 0;
+    padding: 10%;
+    font-size: 1.5rem;
+}
+
+.project-white h1 {
+    font-size: 4rem;
+    text-align: right;
+    color: #6F69AC;
+}
+
+.project-whites {
+    width: 45%;
+    height: 34rem;
+    background-color: #393E46;
+    border-bottom-left-radius: 7%;
+    border-top-left-radius: 7%;
+}
+
+.project-whites p {
+    opacity: 1;
+    padding: 10%;
+    font-size: 1rem;
+}
+
+.project-whites h1 {
+    font-size: 4rem;
+    text-align: right;
+    color: #6F69AC;
+}
+
+.project-black {
+    width: 45%;
+    height: 34rem;
+    background-color: #6F69AC;
+    border-bottom-right-radius: 7%;
+    border-top-right-radius: 7%;
+}
+
+.project-black h1 {
+    font-size: 4rem;
+    color: #393E46;
+}
+
+.project-blacks {
+    width: 45%;
+    height: 34rem;
+    background-color: #6F69AC;
+    border-bottom-right-radius: 7%;
+    border-top-right-radius: 7%;
+}
+
+.project-blacks h1 {
+    font-size: 4rem;
+    color: #393E46;
+}
+
+.intro {
+    padding: 0;
+    margin: 0 17%;
+    display: flex;
+    position: relative;
+    z-index: 2;
+    top: -190px;
+    left: 96px;
+}
+
+.intro-black {
+    width: 40%;
+    height: 23rem;
+    padding-top: 7%;
+    background-color: #6F69AC;
+    border-bottom-left-radius: 10%;
+    border-top-left-radius: 10%;
+    text-align: center;
+}
+
+.intro-black h2 {
+    padding: 5%;
+    font-size: 2.5rem;
+    color: #393E46;
+}
+
+.intro-white {
+    padding: 5%;
+    width: 40%;
+    height: 23rem;
+    color: #000;
+    background-color: #393E46;
+    border-bottom-right-radius: 10%;
+    border-top-right-radius: 10%;
+}
+
+.intro-white .black {
+    padding: 5%;
+    color: #6F69AC;
+    text-decoration: none;
+}
+
+.intro-white .black:hover {
+    transform: scale(1.1);
+}
+
+.intro-white .link:hover {
+    color: #0077b5;
+}
+
+.intro-white .git:hover {
+    color: #171515;
+}
+
+.intro-white .stack:hover {
+    color: #F48024;
+}
+
+.intro-white .email:hover {
+    color: #FF4848;
+}
+
+.project-blacks .table {
+    padding: 10%;
+    opacity: 1;
+    font-size: 0.9rem;
+}
+
+.social-part .fa {
+    padding-right: 20px;
+}
+
+ul li a {
+    margin-right: 20px;
+}
+
+.dark {
+    width: 200%;
+    margin-left: 100%;
+}
+
+.navbar {
+    border-top-left-radius: 30%;
+    border-top-right-radius: 30%;
+    color: blanchedalmond;
+}
+
+.abt {
+    margin-top: 10px;
+}
+
+.gitlink {
+    color: white;
+}
+
+.gitlink:hover {
+    color: #171515;
+}
