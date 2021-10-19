@@ -1,5 +1,6 @@
 body {
     font-family: cursive;
+    background-color: cornflowerblue;
 }
 
 .skills {
@@ -16,7 +17,7 @@ body {
     padding-left: 5%;
     height: 46rem;
     text-align: center;
-    background-color: #6F69AC;
+    background-color: #000000;
     border-bottom-left-radius: 5%;
     border-top-left-radius: 5%;
 }
@@ -27,19 +28,39 @@ body {
     text-align: center;
 }
 
+.skill-black a {
+    color: #AAAAAA;
+    text-decoration: none;
+    opacity: .8;
+}
+
+.skill-black a:hover {
+    opacity: 1;
+}
+
 .skill-blacks {
     width: 50%;
     padding-left: 3%;
     height: 46rem;
-    background-color: #6F69AC;
+    color: #AAAAAA;
+    background-color: #000000;
     border-bottom-left-radius: 5%;
     border-top-left-radius: 5%;
 }
 
 .skill-blacks h1 {
     font-size: 4rem;
-    color: #393E46;
     text-align: center;
+}
+
+.skill-blacks a {
+    color: #AAAAAA;
+    text-decoration: none;
+    opacity: .8;
+}
+
+.skill-blacks a:hover {
+    opacity: 1;
 }
 
 .skill-blacks h3 {
@@ -60,7 +81,7 @@ body {
 .skill-white {
     width: 50%;
     height: 46rem;
-    background-color: #393E46;
+    background-color: #AAAAAA;
     border-bottom-right-radius: 5%;
     border-top-right-radius: 5%;
 }
@@ -71,12 +92,32 @@ body {
     text-align: center;
 }
 
+.skill-white a {
+    color: #000000;
+    text-decoration: none;
+    opacity: .8;
+}
+
+.skill-white a:hover {
+    opacity: 1;
+}
+
 .skill-whites {
     width: 50%;
     height: 46rem;
-    background-color: #393E46;
+    background-color: #AAAAAA;
     border-bottom-right-radius: 5%;
     border-top-right-radius: 5%;
+}
+
+.skill-whites a {
+    color: #000000;
+    text-decoration: none;
+    opacity: .8;
+}
+
+.skill-whites a:hover {
+    opacity: 1;
 }
 
 .skill-whites li {
@@ -122,9 +163,19 @@ body {
 .project-white {
     width: 45%;
     height: 34rem;
-    background-color: #393E46;
+    background-color: #AAAAAA;
     border-bottom-left-radius: 7%;
     border-top-left-radius: 7%;
+}
+
+.project-white a {
+    color: #000000;
+    text-decoration: none;
+    opacity: .8;
+}
+
+.project-white a:hover {
+    opacity: 1;
 }
 
 .project-white p {
@@ -142,9 +193,19 @@ body {
 .project-whites {
     width: 45%;
     height: 34rem;
-    background-color: #393E46;
+    background-color: #AAAAAA;
     border-bottom-left-radius: 7%;
     border-top-left-radius: 7%;
+}
+
+.project-whites a {
+    color: #000000;
+    text-decoration: none;
+    opacity: .8;
+}
+
+.project-whites a:hover {
+    opacity: 1;
 }
 
 .project-whites p {
@@ -162,27 +223,48 @@ body {
 .project-black {
     width: 45%;
     height: 34rem;
-    background-color: #6F69AC;
+    background-color: #000000;
     border-bottom-right-radius: 7%;
     border-top-right-radius: 7%;
 }
 
+.project-black a {
+    color: #AAAAAA;
+    text-decoration: none;
+    opacity: .8;
+}
+
+.project-black a:hover {
+    opacity: 1;
+}
+
 .project-black h1 {
     font-size: 4rem;
-    color: #393E46;
+    color: #AAAAAA;
 }
 
 .project-blacks {
     width: 45%;
     height: 34rem;
-    background-color: #6F69AC;
+    color: #AAAAAA;
+    background-color: #000000;
     border-bottom-right-radius: 7%;
     border-top-right-radius: 7%;
 }
 
+.project-blacks a {
+    color: #AAAAAA;
+    text-decoration: none;
+    opacity: .8;
+}
+
+.project-blacks a:hover {
+    opacity: 1;
+}
+
 .project-blacks h1 {
     font-size: 4rem;
-    color: #393E46;
+    color: #AAAAAA;
 }
 
 .intro {
@@ -199,7 +281,7 @@ body {
     width: 40%;
     height: 23rem;
     padding-top: 7%;
-    background-color: #6F69AC;
+    background-color: #000000;
     border-bottom-left-radius: 10%;
     border-top-left-radius: 10%;
     text-align: center;
@@ -208,7 +290,7 @@ body {
 .intro-black h2 {
     padding: 5%;
     font-size: 2.5rem;
-    color: #393E46;
+    color: #AAAAAA;
 }
 
 .intro-white {
@@ -216,7 +298,7 @@ body {
     width: 40%;
     height: 23rem;
     color: #000;
-    background-color: #393E46;
+    background-color: #AAAAAA;
     border-bottom-right-radius: 10%;
     border-top-right-radius: 10%;
 }
@@ -251,6 +333,7 @@ body {
     padding: 10%;
     opacity: 1;
     font-size: 0.9rem;
+    color: #AAAAAA;
 }
 
 .social-part .fa {
@@ -281,5 +364,5 @@ ul li a {
 }
 
 .gitlink:hover {
-    color: #171515;
+    color: cornflowerblue;
 }
